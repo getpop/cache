@@ -4,7 +4,7 @@ namespace PoP\Cache\Facades;
 use Psr\Cache\CacheItemPoolInterface;
 use PoP\Root\Container\ContainerBuilderFactory;
 
-class CacheAPI
+class CachePool
 {
     public static function getInstance(): CacheItemPoolInterface
     {
