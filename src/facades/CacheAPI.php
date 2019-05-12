@@ -8,6 +8,6 @@ class CacheAPI
 {
     public static function getInstance(): CacheItemPoolInterface
     {
-        return ContainerBuilderFactory::getInstance()->get('\PoP\Cache\Contracts\CacheAPI');
+        return ContainerBuilderFactory::getInstance()->get('\PoP\Cache\Contracts\CacheItemPool');
     }
 }
